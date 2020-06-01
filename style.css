@@ -1,0 +1,251 @@
+body {
+    background: rgb(20,20,20);
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+  }
+  .svg-wrapper {
+    text-align: center;
+    padding: 3%;
+  }
+
+  .social{
+    background-color: white;
+  }
+  
+  .text {
+    font-family: 'David Libre';
+    font-size: 23px;
+    letter-spacing: 8px;
+    color: #fff;
+    font-variant: small-caps;
+  }
+
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+.nav ul li {
+    float: left;
+    width: 500px;
+    height: 50px;
+    display: inline-table;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    position: relative;
+    color: #fff;
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    font-style: oblique;
+    letter-spacing: 4px;
+    border-bottom: solid #fff;
+} 
+
+.nav ul{
+    padding:0%;
+}
+
+.nav ul li:hover > ul{
+    display: block;
+    border-bottom: solid #fff;
+    border-width: auto;
+}
+
+.nav ul ul{
+    display: none;
+}
+
+.nav ul ul li{
+    font-size: 17px;
+}
+
+.textcu{
+    text-align: center;
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: #fff;
+    padding: 2%;
+}
+
+.divcu{
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    letter-spacing: 8px;
+    padding: 10px;
+    border-bottom: solid #fff;
+    border-width: 1px;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+p{
+   text-align: center;
+}
+
+.divSocial{
+    position: relative;
+    padding: 15%;
+}
+
+.text-block1{
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    position: absolute;
+    right: 740px;
+    top: 455px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.text-block2{
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    position: absolute;
+    right: 265px;
+    top: 455px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.link_insta{
+    color: #fff;
+}
+
+.link_insta:hover{
+    color: red;
+}
+
+.imgInsta{
+    width: 250px;
+    margin-right: 270px;
+    margin-left: 0px;
+}
+
+.imgWpp{
+    width: 250px;
+    
+}
+
+.button_social_home:hover{
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    background-color: rgb(20, 20, 20);
+    letter-spacing: 3px;
+    color: rgb(255, 136, 0, 0.781);
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0.5%;
+    
+}
+
+.button_social_home{
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    background-color: rgb(20, 20, 20);
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0.5%;
+    float: left;
+}
+
+.button_social_cu{
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    background-color: rgb(20, 20, 20);
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0.5%;
+    float: right;
+}
+
+.button_social_cu:hover{
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    background-color: rgb(20, 20, 20);
+    letter-spacing: 3px;
+    color: rgba(7, 182, 31, 0.74);
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0.5%;
+    float: right;
+}
+
+.button_cu_home {
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    background-color: rgb(20, 20, 20);
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0.5%;
+    float: left;
+}
+
+.button_cu_home:hover{
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    background-color: rgb(20, 20, 20);
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0.5%;
+    float: left;
+}
+
+.button_cu_social{
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    background-color: rgb(20, 20, 20);
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0.5%;
+    float: right;
+}
+
+.button_cu_social:hover{
+    font-family: 'David Libre';
+    font-variant: small-caps;
+    background-color: rgb(20, 20, 20);
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0.5%;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
